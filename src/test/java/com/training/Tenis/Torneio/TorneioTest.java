@@ -10,7 +10,7 @@ public class TorneioTest {
 		TorneioTenis tenis = new TorneioTenis();
 		char[] Partidas = {'V','V','P','P','P','V'};
 		int resp = tenis.Torneio(Partidas);
-		assertTrue(resp == 2);
+		assertTrue(resp == 1);
 	}
 	
 }
