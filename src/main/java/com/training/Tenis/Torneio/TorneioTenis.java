@@ -1,4 +1,4 @@
-package com.training.example.JacocoExample;
+package com.training.Tenis.Torneio;
 
 public class TorneioTenis {
     public int Torneio (char[] partidas) {
