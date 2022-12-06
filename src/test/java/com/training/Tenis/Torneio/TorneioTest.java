@@ -8,7 +8,7 @@ public class TorneioTest {
 	@Test
 	public void testVitoria() {
 		TorneioTenis tenis = new TorneioTenis();
-		char[] Partidas = {'V','V','P','P','P','V'};
+		char[] Partidas = {'V','V','V','V','V','V'};
 		int resp = tenis.Torneio(Partidas);
 		assertTrue(resp == 1);
 	}
